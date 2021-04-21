@@ -9,26 +9,27 @@ h1 > span {
   color: hotpink;
 }
 
+.body-content{
+  width: 100%;
+}
+
 .header-bio{
   margin-top: 0%;
 }
 
 .content-bio {
+  margin:auto;
   border-radius: 10px;
   background-color:whitesmoke;
-  width: 800px;
+  width: 700px;
   color: black;
   padding: 20px;
-  position: relative;
 }
 
 .vertical-center {
   margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(25%);
 }
 
 #img-bio{
